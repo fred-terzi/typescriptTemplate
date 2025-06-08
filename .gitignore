@@ -1,0 +1,9 @@
+node_modules/
+.reqt/
+dist/
+.env
+*.log
+coverage/
+.vscode/
+.DS_Store
+npm-debug.log*
