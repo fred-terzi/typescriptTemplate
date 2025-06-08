@@ -3,6 +3,20 @@
 ## Overview
 This project is a TypeScript template designed to streamline the development of applications with a core API and a command-line interface (CLI). It includes a structured setup for testing and ensures that all workflows are functional from the start.
 
+## Objectives:
+ - Set up a TypeScript project for AI Paired Programming that allows for the following prompts:
+
+ ```
+ Implement feature X.X and use 'run npm test' until all tests pass with 100% coverage.
+ ```
+ ```
+ #Problems fix all TypeScript errors and use 'run npm test' until all tests pass with 100% coverage.
+ ```
+
+**Example Terminal Test Output:**
+
+![Example Terminal Test Output](v8_example.png)
+
 ## Project Structure
 ```
 typescript-template
