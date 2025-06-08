@@ -95,11 +95,11 @@ cat > tsconfig.json <<EOL
 EOL
 
 # Create src directory and starter files
-mkdir -p src/types
-[ -f src/core.ts ] || echo '// Core API implementation' > src/core.ts
-[ -f src/core.test.ts ] || echo '// Core API tests' > src/core.test.ts
-[ -f src/cli.ts ] || echo '// CLI entry point' > src/cli.ts
-[ -f src/cli.test.ts ] || echo '// CLI tests' > src/cli.test.ts
+mkdir -p src/types src/core src/cli
+[ -f src/core/core.ts ] || echo '// Core API implementation' > src/core/core.ts
+[ -f src/core/core.test.ts ] || echo '// Core API tests' > src/core/core.test.ts
+[ -f src/cli/cli.ts ] || echo '// CLI entry point' > src/cli/cli.ts
+[ -f src/cli/cli.test.ts ] || echo '// CLI tests' > src/cli/cli.test.ts
 [ -f src/types/index.ts ] || echo '// Type definitions' > src/types/index.ts
 [ -f src/setupTests.ts ] || echo '// You can add global setup for Vitest here if needed' > src/setupTests.ts
 
