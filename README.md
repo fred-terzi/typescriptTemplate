@@ -7,17 +7,19 @@ This project is a TypeScript template designed to streamline the development of 
 ```
 typescript-template
 ├── src
-│   ├── cli.ts                # Implementation of the CLI
-│   ├── core.ts               # Core logic of the application
-│   ├── cli.test.ts           # Tests for CLI functionality
-│   ├── core.test.ts          # Tests for core functionality
+│   ├── core
+│   │   ├── core.ts         # Core logic of the application
+│   │   └── core.test.ts    # Tests for core functionality
+│   ├── cli
+│   │   ├── cli.ts          # Implementation of the CLI
+│   │   └── cli.test.ts     # Tests for CLI functionality
 │   └── types
-│       └── index.ts          # TypeScript interfaces and types
-├── package.json              # npm configuration
-├── tsconfig.json             # TypeScript configuration
-├── vitest.config.ts          # Vitest configuration for testing
-├── c8.config.js              # c8 configuration for coverage reporting
-└── README.md                 # Project documentation
+│       └── index.ts        # TypeScript interfaces and types
+├── package.json            # npm configuration
+├── tsconfig.json           # TypeScript configuration
+├── vitest.config.ts        # Vitest configuration for testing
+├── c8.config.js            # c8 configuration for coverage reporting
+└── README.md               # Project documentation
 ```
 
 ## Setup Instructions
@@ -55,7 +57,7 @@ typescript-template
   ```
 
 ## Contributing
-Contributions are welcome! Please submit a pull request or open an issue for any enhancements or bug fixes.
+Contributions are welcome! Please open an issue for any enhancements or bug fixes.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
