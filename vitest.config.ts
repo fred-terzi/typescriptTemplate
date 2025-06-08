@@ -10,6 +10,5 @@ export default defineConfig({
       exclude: ['**/*.test.ts'],
     },
     globals: true,
-    setupFiles: './src/setupTests.ts',
   },
 });
