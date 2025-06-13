@@ -59,12 +59,10 @@ This will be a git template that will be used to create TypeScript project that 
 ```json
   "devDependencies": {
     "@vitest/coverage-v8": "^3.2.2",
-    "c8": "^10.1.3",
     "execa": "^9.6.0",
     "reqtext": "^0.2.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3",
-    "vite": "^6.3.5",
     "vitest": "^3.2.2"
   }
 ```
