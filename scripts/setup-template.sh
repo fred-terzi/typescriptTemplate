@@ -50,9 +50,7 @@ npm install --save-dev \
   ts-node \
   vitest \
   @vitest/coverage-v8 \
-  c8 \
   execa \
-  vite \
   reqtext \
   @types/node
 
